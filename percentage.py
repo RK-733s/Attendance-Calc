@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt 
 import pandas as pd
 
-st.title("Attendance Percantage Calulator")
+st.title("Attendance Percentage Calulator")
 def main():
     w_days=st.number_input("Enter Total Days :",value=0)
     a_days=st.number_input("Enter Absent Days :",value=0)
